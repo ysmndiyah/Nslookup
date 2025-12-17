@@ -5,9 +5,7 @@ import socket
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
-# ---------------------------------------------------
-# Fungsi Logika
-# ---------------------------------------------------
+
 def nslookup():
     domain = entry_domain.get().strip()
 
